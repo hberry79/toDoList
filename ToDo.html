@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To - Do List</title>
+    <!--Reset CSS-->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <!-- CSS framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="ToDo.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- LINK TO FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    	<div class="row">
+        	<h1>What to do....</h1>
+        </div>
+        <div class="row">
+        	<div class="ten columns">
+        	<form>
+        		<label for="newItem">Type your next "to-do" here to add it to the list</label>
+ 				<textarea class="u-full-width" placeholder="File my taxes" id="newItem"></textarea>
+        	</form>
+        		<input class="button-primary" type="submit" value="Add Item">
+        	</div>
+        </div>
+        <div class="row">
+        	<div class = "ten columns">
+				<ul id ="list">
+					<!--list to populate here-->
+				</ul>
+			</div>
+        </div>
+    </div>
+    <!--External Javascript File-->
+    <script type="text/javascript" src="ToDo.js"></script>
+</body>
+
+</html>

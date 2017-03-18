@@ -1,0 +1,12 @@
+body {
+	background-color: lightgray;
+	background-image: url("images/time2.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	opacity: .95;
+}
+li:hover {
+	background-color: #222f5b;
+  	color: white;
+  	opacity: .2;
+}
